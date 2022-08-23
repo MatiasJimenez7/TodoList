@@ -1,0 +1,57 @@
+.tareas {
+    display: grid;
+    margin: 20px 0 15px 0;
+    grid-template-columns: 3fr 1fr 1fr;
+    margin-top: 3rem;
+
+    
+}
+.editar {
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+.borrar {
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',  'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+.tareas span {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-left: 10rem;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+}
+.tareas-edit {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-left: 10rem;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tareas-edit input {
+    margin-right: 1rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+}
+.tareas-edit button {
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: black;
+    color:  white;
+    padding: 0.41rem;
+}
